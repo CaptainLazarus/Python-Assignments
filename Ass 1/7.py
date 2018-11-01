@@ -12,8 +12,9 @@ while 1:
         s = input()
         ans = isPalindrome(s) 
         if ans == 1: 
-            print("Yes") 
+            print("Is palindrome") 
         else: 
-            print("No") 
+            print("Is not palindrome") 
+        break
     except:
         print("invalid")

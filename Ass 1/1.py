@@ -8,7 +8,7 @@ while 1:
             def perimeter(self):
                 return 2*(self.a+self.b)
         a = rectangle()
-        print(a.area())
+        print(a.area() , 'is the area and perimeter is ' , a.perimeter())
         break
     except:
         print("Invalid")

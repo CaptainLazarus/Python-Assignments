@@ -5,6 +5,6 @@ while 1:
         num = int(input())
         print("Factorial of",num,"is", 
         factorial(num)) 
-  
+        break
     except:
         print("Invalid")
